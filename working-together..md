@@ -10,7 +10,7 @@
 * Reboot. If it crash, or black screen, give it few seconds and then reboot on your backup solution.
 * -&gt;`"cd {Clover partition}/EFI"`
 * -&gt; `"git add -A && git commit -m "{commit description}" && git push"`.
-* send me a private message on 
+* Drop a message in the issue you've opened, so I get a notification.
 
 #### Do not copy file in and out this folder.
 

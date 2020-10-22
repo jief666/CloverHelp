@@ -41,7 +41,9 @@ If you locked out because you rely on this shared clover folder to boot, you'll 
 
 ![](.gitbook/assets/screenshot-2020-10-22-at-10.34.44.png)
 
-* Send me a private message on insanelymac.
+* Open an issue in your repo with a brief description.
+* Send me a private message on Insanelymac, just to be sure I got the notification.
+* From now, regarding this issue, we'll write on Github.
 
 
 
