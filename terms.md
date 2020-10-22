@@ -1,4 +1,4 @@
-# Terms & conventions
+# Terms & conventions.
 
 ### `" and "`
 
@@ -17,14 +17,14 @@ For me `"{your name on insanelymac}"` would be `Jief_Machak`\(do not type the qu
 Do not add anything more than what's asked.  
 If I need _`"Jief_Machak"`_ \(including the quotes\), I'll write `""{your name on insanelymac}""` instead.
 
-### `Clover partition`
+### `Bootloader partition`
 
 This will be the partition we will use together. It's **not** the Clover folder. It's **not** the EFI folder. It's the partition itself.  
 It can be a USB stick, it can be an EFI partition on one of your drive.
 
-### `"{Clover partition}"`
+### `"{Bootloader partition}"`
 
-Replace this by the path where you `Clover partition` is mounted.  
+Replace this by the path where you `Bootloader partition` is mounted.  
 Usually something like /Volumes/EFI, or, if you use a usb stick, /Volumes/{USB stick name}.  
 Here EFI is not the folder inside, it's the partition name. **Do not confuse**.
 
