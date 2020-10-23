@@ -10,7 +10,7 @@ If you locked out because you rely on this shared clover folder to boot, you'll 
 ### Setup :
 
 * Create a github repository. Name it `"EFI4{your name on insanelymac}"`.
-* Get to repo URL in Gitbug : ![](.gitbook/assets/screenshot-2020-10-22-at-10.12.42%20%281%29.png) 
+* Get to repo URL in Gitbug : ![](../.gitbook/assets/screenshot-2020-10-22-at-10.12.42%20%281%29.png) 
 * -&gt;`"cd {Bootloader partition}"`. Remember, not the `Clover folder`.
 * -&gt; `"git clone {repo url} EFI"`.
 * -&gt; `"cd EFI"`.
@@ -35,11 +35,13 @@ If you locked out because you rely on this shared clover folder to boot, you'll 
 ### Finish
 
 * reboot.
-* -&gt;`"cd {Bootloader partition}/EFI"`.
+* -&gt; `"cd {Bootloader partition}/EFI"`.
+* -&gt; `"echo ".DS_Store" > .gitignore"`.
+* -&gt; `"echo "._*" >> .gitignore"`.
 * -&gt; `"git add -A && git commit -m "initial commit" && git push"`.
 * Invite me as a collaborator for your github repo. Go in "Settings" -&gt; "Manage access". See picture below. Invite `"jief666"` : 
 
-![](.gitbook/assets/screenshot-2020-10-22-at-10.34.44.png)
+![](../.gitbook/assets/screenshot-2020-10-22-at-10.34.44.png)
 
 * Open an issue in your repo with a brief description.
 * Send me a private message on Insanelymac, just to be sure I got the notification.
@@ -47,7 +49,7 @@ If you locked out because you rely on this shared clover folder to boot, you'll 
 
 
 
-**ATTENTION** : Do not clone the repo on your main drive, and copy efi file or other files I've sent you through the repo to your "real" Clover folder. I need to know and be sure, 100% of the time, that you boot on the exact folder we share.  
+**WARNING** : Do not clone the repo on your main drive, and copy efi file or other files I've sent you through the repo to your "real" Clover folder. I need to know and be sure, 100% of the time, that you boot on the exact folder we share.  
 If you want to make other test on your own, rename this "EFI" folder anything you want \(like "EFI\_shared"\) and rename your personal work-in-progress to "EFI".  
 Best is to have your own EFI folder and our shared EFI folder on 2 different partitions \(or USB stick\), so you don't have to rename anything.
 
