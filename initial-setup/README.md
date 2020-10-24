@@ -19,7 +19,13 @@ If you locked out because you rely on this shared clover folder to boot, you'll 
 
 ### If you have a working Clover :
 
+Before you start, remember that you are setting up a shared Clover folder for tests. This Clover folder will live for the time of the test and we be specific to that test. It'll be a stripped down version of the working Clover folder.  
+**Do not delete** your working Clover folder. This shared Clover folder is **not** a replacement.
+
 * Set up your **working** Clover folder in `"{Bootloader partition}/EFI/CLOVER"`. Call you Clover efi file `"CloverX64.ok.efi"`.
+  * Do not use the OEM folder. Because I don't have the same hardware as you, I couldn't test boot your config if you use OEM folder.
+  * Delete any unused folder. Like "doc", "OEM", "ROM", in Clover folder. You can keep them in your personal Clover folder, of course.
+  * In general : the less there is, the better it is.
 * Check that it boots fine. On first boot, you'll get BootloaderChooser text menu. Select the efi file `"\EFI\CLOVER\CloverX64.ok.efi"`. NOTE : on next boot, you won't see the text menu again, unless you boot your computer with a key pressed down.
 * -&gt; `"rm {Bootloader partition}/EFI/CLOVER/misc/preboot.log" .`
 * -&gt; `"rm {Bootloader partition}/EFI/CLOVER/misc/debug.log" .`
