@@ -35,8 +35,8 @@ Create a "smbios.plist" containing, for example :
 
 Put this file in your daily Clover folder.
 
-You can also put this file in the EFI we share. If so, add `"CLOVER/smbios.plist"` to ".gitignore".  
-If you use OEM subfolder, add, of course, `"CLOVER/OEM/{your system name}/smbios.plist"` to .gitignore.
+You can also put this file in the EFI we share. We already have added  `«CLOVER/smbios.plist»` to `«.gitignore»`, so not risk to share by mistake.  
 
-_I would recommend to do that anyway. The big advantage is that you can share your serial number by mistake when you want to share your config.plist._
+
+_I would recommend to have a separate smbios.plist anyway. The big advantage is that you cannot share your serial number by mistake when you want to share your config.plist, on a forum for example._
 
