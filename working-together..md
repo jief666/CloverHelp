@@ -2,7 +2,7 @@
 
 ### Now we share a repo together. Good.
 
-#### Each I'd like you to make a test, unless told differently, you'll have to :
+#### Each time I'd like you to make a test, unless told differently, you'll have to :
 
 * -&gt;`cd {Clover partition}/EFI`
 * -&gt; `git fetch`
